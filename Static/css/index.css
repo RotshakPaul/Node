@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine');
+body {
+    background-image: url('./Grossgasteiger-691668.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    /* background-color: rgb(235, 241, 243); */
+}
+nav {
+    padding: 10px;
+    margin-right: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+nav > ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    list-style-type: none;
+    
+}
+nav > ul > li > a {
+    color: rgb(248, 242, 242);
+    border: 1px solid rgb(14, 6, 1);
+    border-radius: 10px;
+    padding: 4px;
+    background-color: rgb(39, 126, 129);
+    text-decoration: none;
+    font-weight:100;
+    font-family: 'poppins', sans-serif;
+}
+.about {
+    padding: 20px 0px 0px 400px;
+}
+.privacy {
+    padding: 20px 0px 0px 400px;
+}
+button {
+    display: flex;
+    margin: 0px 600px;
+    border-radius: 10px;
+   
+}
+button > a {
+    color:antiquewhite;
+    padding: 3px;
+    border-radius: 10px;
+    margin: 0px 0px;
+    text-decoration: none;
+    background-color: rgb(39, 126, 129);
+    font-family: 'poppins', sans-serif;
+}
+main {
+    display: flew;
+    padding: 0;
+    margin: 100px 100px;
+}
+button>a:hover, nav>ul>li>a:hover {
+    background-color: rgba(4, 63, 73, 0.904);
+}
+img {
+    display: flex;
+    padding: 0px;
+    margin: -40px 1170px 0px;
+    
+}
+form > input {
+    border-radius: 4px;
+
+}
+.submit {
+    background-color:  rgb(39, 126, 129);
+    color: aliceblue;
+}
